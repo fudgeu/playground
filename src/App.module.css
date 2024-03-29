@@ -1,0 +1,19 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--background-color);
+  padding: 1rem 2rem;
+}
+
+.header {
+  display: flex;
+  gap: 4rem;
+  align-items: center;
+}
+
+.header h1 {
+  font-size: 4rem;
+  font-weight: bold;
+}
