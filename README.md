@@ -1,30 +1,11 @@
-# React + TypeScript + Vite
+# playground
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+_Created for UCF CDL's Hackday Spring 2024_
 
-Currently, two official plugins are available:
+playground is exactly that - a playground where learners can mess around with and learn new math and computer concepts. The goal is to feature multiple custom made pages, each featuring a separate concept. Each page will have an interactive toolkit that allows users to see the concept in action, and feature content describing the concept, how it works, and it's uses.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The main concept that I wanted to focus on was transformation matrices. This actually stems from a personal experience I had recently, where I was trying to find a site that allowed me to play with transformation matrices to see how different combinations of transformations can influence the final product.
 
-## Expanding the ESLint configuration
+Unfortunately, within the 5-hours that I set aside to work on it, I was not able to finish it 🥲 but I do plan on taking this project and turning it into a personal one once I have a little more time in the near future.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Built using Vite, React, and Typescript
